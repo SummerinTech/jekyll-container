@@ -1,9 +1,9 @@
 design:
-  background-pink-color_color: '#EDCEC1;'
-  white-color_color: 'white;'
-  bright-yellow-color_color: '#F8C361;'
-  mustard-yellow-color_color: '#E7CC7C;'
-  orange-color_color: '#FF9B51;'
-  pink-color_color: '#FE9793;'
-  peach-color_color: '#E49A7B;'
+  background-pink_color: '#EDCEC1;'
+  white_color: 'white;'
+  bright-yellow_color: '#F8C361;'
+  mustard-yellow_color: '#E7CC7C;'
+  orange_color: '#FF9B51;'
+  pink_color: '#FE9793;'
+  peach_color: '#E49A7B;'
  
