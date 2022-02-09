@@ -1,3 +1,21 @@
+:root {
+    --background-pink-color: #EDCEC1;
+    --white-color: white;
+    --bright-yellow-color: #F8C361;
+    --mustard-yellow-color: #E7CC7C;
+    --orange-color: #FF9B51;
+    --pink-color: #FE9793;
+    --peach-color: #E49A7B;
+    --featured-text:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    --regular-text: 'Georgia',serif;
+
+}
+
+[class*=grid-] {
+    padding: 0;
+    margin: 0;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -5,14 +23,77 @@
 }
 
 body {
-    background-color: paleturquoise;
-    color: white;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: center;
+    background-color: var(--background-pink-color);
+    color: var(--white-color);
+    font-family: var(--regular-text);
     padding: 5%;
   
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: var(--featured-text);
 }
 
 div {
     padding: 1%;
 }
+
+/* Contact Page Styling */
+.contact-page {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-header {
+    text-align: center;
+    font-size: 2.5rem;
+    letter-spacing: 1.4;
+}
+
+form {
+    margin: 0 auto;
+    max-width: 700px;
+}
+
+form label {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 1rem;
+    display: block;
+    font-size: 16px;
+  
+}
+
+form input, form textarea {
+    width: 100%;
+    border: 2px solid white;
+    border-radius: 4px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 1rem .2rem;
+    margin-top: .5rem;
+    font-size: 14px;
+    outline: none;
+    resize: none;
+}
+
+form input:focus, form textarea:focus {
+    border-color: var(--peach-color);
+}
+
+form button {
+    border: none;
+    padding: .5rem 1rem;
+    border-radius: 4px;
+    text-transform: uppercase;
+    background-color: var(--peach-color);
+    color: white;
+    font-size: 16px;
+    letter-spacing: 1.5;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: var(--white-color);
+    color: var(--peach-color);
+} 
