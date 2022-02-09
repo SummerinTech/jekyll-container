@@ -54,6 +54,7 @@ width: 100%;
 .nav-link a {
     text-decoration: none;
     color: inherit;
+    display: inline-block;
 }
 
 .nav-link a:hover {
@@ -66,6 +67,7 @@ width: 100%;
   font-size: 2rem;
   font-family: var(--featured);
   font-weight: bold;
+  display: inline-block;
 }
 
 /* Contact Page Styling */
