@@ -5,11 +5,10 @@ social-media:
   youtube:
   facebook:
 design:
-  background-pink_color: '#EDCEC1'
-  white_color: 'white'
-  bright-yellow_color: '#F8C361'
-  mustard-yellow_color: '#E7CC7C'
-  orange_color: '#FF9B51'
-  pink_color: '#FE9793'
-  peach_color: '#E49A7B'
- 
+  background-pink_color: '#edcec1'
+  white_color: '#ffffff'
+  bright-yellow_color: '#f8c361'
+  mustard-yellow_color: '#e7cc7c'
+  orange_color: '#ff9b51'
+  pink_color: '#fe9793'
+  peach_color: '#e49a7b'
