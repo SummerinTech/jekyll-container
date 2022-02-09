@@ -4,17 +4,18 @@ title: Contact Us
 ---
   <div class="contact-page grid-center-middle">
     <h2 class="contact-header col-12-bottom">Contact Us</h2>
-    <form class="grid-center-middle contact-form">
+    <form class="grid-center-middle contact-form" action="https://formspree.io/f/xyyoeazk"
+  method="POST">
       <label class="col-10 grid-center"> Name
-        <input type="text" placeholder="Your name..."/>
+        <input type="text" placeholder="Your name..." name="name" />
       </label>
       <label class="col-10 grid-center"> Email
-        <input type="email" placeholder="Your email..."/>
+        <input type="email" placeholder="Your email..." name="_replyto"/>
       </label>
       <label class="col-10 grid-center"> Message
-        <textarea type="text" placeholder="Your message..." rows="4"></textarea>
+        <textarea type="text" placeholder="Your message..." rows="4" name="message"></textarea>
       </label>
       <br />
-      <button class="col-10" type="submit">Submit</button>
+      <button class="col-10" type="submit" name="submit">Submit</button>
     </form>
   </div>
