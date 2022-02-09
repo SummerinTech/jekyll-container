@@ -12,3 +12,5 @@ design:
   orange_color: '#ff9b51'
   pink_color: '#fe9793'
   peach_color: '#e49a7b'
+  featured_text: "'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif"
+  regular_text: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif"
