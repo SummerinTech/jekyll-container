@@ -1,5 +1,10 @@
 technical:
-  google-analytics:
+  google-analytics-embed:
+  google-fonts-embed:
+  stuff-for-head-embed:
+  body-scripts-embed:
+  cookie-script-banner:
+  tracking-scripts-after-cookie-acceptance-embed:
 social-media:
   instagram:
   youtube:
