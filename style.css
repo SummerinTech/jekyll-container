@@ -33,6 +33,14 @@ div {
     padding: 1%;
 }
 
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
 /* Navigation Styling */
 
 .navigation {
@@ -46,7 +54,7 @@ top: 0;
 width: 100%;
 }
 
-.navigation ul {
+.navigation .main-navigation {
     list-style-type: none;
     display: flex;
     padding: .5rem 0;
@@ -69,6 +77,18 @@ width: 100%;
     color: var(--background-pink);
 } 
 
+.burger-container {
+    padding: 0;
+    margin: 0;
+}
+
+.fa-bars::before {
+    color: var(--mustard-yellow);
+    font-size:20px;
+    padding: 0 10px;
+    display: none;
+}
+
 .logo a{
   text-decoration: none;
   color: var(--mustard-yellow);
@@ -78,6 +98,28 @@ width: 100%;
   display: inline-block;
 }
 
+.mobile-wrapper {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.mobile-navigation {
+    background-color: white;
+    padding: 10%;
+    margin-top: 1rem;
+    width: 100%;
+    text-align: center;
+    transition: 3s ease-in-out all;
+}
+
+
+.mobile-navigation li a{
+    display: block;
+    color: var(--mustard-yellow);
+    text-decoration: none;
+    padding-bottom: 1rem;
+}
 /* Contact Page Styling */
 .contact-page {
     padding: 10%;
@@ -146,8 +188,22 @@ footer {
     margin-top: 2rem;
 }
 
+@media (min-width: 601px) {
+    .mobile-navigation { display: none};
+}
+
 @media (max-width: 600px) {
+
+    /* mobile navigation */ 
+    .fa-bars::before {
+        display: block;
+        cursor: pointer;
+    }
     
+    .navigation .main-navigation {
+        display: none;
+    }
+
     /* Contact Form Styles */
     .contact-header {
         font-size: 2rem;
