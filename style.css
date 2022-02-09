@@ -4,6 +4,14 @@
     margin: 0;
 }
 
+html {
+    height: 100vh;
+}
+
+body {
+    height: 100vh;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -72,64 +80,58 @@ width: 100%;
 
 /* Contact Page Styling */
 .contact-page {
-    margin: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     padding: 10%;
+    height: 95vh;
 }
 
 .contact-header {
     text-align: center;
-    font-size: 2.5rem;
-    letter-spacing: 1.4;
+    font-size: 3rem;
+    padding: 1rem;
 }
 
-form {
+.contact-form {
     margin: 0 auto;
-    max-width: 700px;
+    max-width: 500px;
 }
 
-form label {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-bottom: 1rem;
+.contact-form label {
     display: block;
-    font-size: 16px;
-  
+    text-align:left;
+   font-size: 20px;
+   font-family: var(--regular);
 }
 
-form input, form textarea {
+.contact-form input, .contact-form textarea {
+    display: block;
     width: 100%;
-    border: 2px solid white;
-    border-radius: 4px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 1rem .2rem;
-    margin-top: .5rem;
+    font-family: var(--regular);
     font-size: 14px;
+    border: 2px solid white;
     outline: none;
-    resize: none;
+    padding: .3rem;
+    border-radius: 3px;
+    margin-bottom: .8rem;
+    margin-top: .3rem;
 }
 
-form input:focus, form textarea:focus {
+.contact-form input:focus, .contact-form textarea:focus {
     border-color: var(--peach);
 }
 
-form button {
+.contact-form button {
+    display: block;
     border: none;
-    padding: .5rem 1rem;
-    border-radius: 4px;
-    text-transform: uppercase;
     background-color: var(--peach);
     color: white;
+    text-transform: uppercase;
+    padding: .5rem 1rem;
+    border-radius: 3px;
     font-size: 16px;
-    letter-spacing: 1.5;
-    cursor: pointer;
+
 }
 
-form button:hover {
-    background-color: var(--white);
-    color: var(--peach);
-} 
+
 
 /* Footer style */
 
@@ -140,4 +142,8 @@ footer {
     color: white;
     text-align: center;
     padding: 1%;
+}
+
+@media (max-width: 800px) {
+ 
 }

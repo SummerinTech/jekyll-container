@@ -2,25 +2,19 @@
 layout: default
 title: Contact Us
 ---
-<div class="grid contact-page">
-  <h2 class="contact-header col-12">Contact Us</h2>
-  <form class="col-6-top"
-  action="https://formspree.io/f/xyyoeazk"
-  method="POST"
-
->
- <label>
-    Name:
-    <input required type="text" name="_name" placeholder="Your name...">
-    </label>
-  <label>
-    Email:
-    <input required type="email" name="_replyto" placeholder="Your email address...">
-  </label>
-  <label >
-    What's on your mind?
-    <textarea rows="5" required name="message" placeholder="Type your message..."></textarea>
-  </label>
-  <!-- your other form fields go here -->
-  <button type="submit">Send</button>
-</form></div>
+  <div class="contact-page grid-center-middle">
+    <h2 class="contact-header col-12-bottom">Contact Us</h2>
+    <form class="grid-center-middle contact-form">
+      <label class="col-10 grid-center"> Name
+        <input type="text" placeholder="Your name..."/>
+      </label>
+      <label class="col-10 grid-center"> Email
+        <input type="email" placeholder="Your email..."/>
+      </label>
+      <label class="col-10 grid-center"> Message
+        <textarea type="text" placeholder="Your message..." rows="4"></textarea>
+      </label>
+      <br />
+      <button class="col-10" type="submit">Submit</button>
+    </form>
+  </div>
