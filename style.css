@@ -33,6 +33,10 @@ div {
     padding: 1%;
 }
 
+.bg-image {
+    background-image:url()
+}
+
 .show {
     display: block;
 }
